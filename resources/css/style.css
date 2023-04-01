@@ -51,9 +51,9 @@ body {
 
 .a-slide-menu-item.active {
     position: relative;
-  }
+}
   
-  .a-slide-menu-item.active::after {
+.a-slide-menu-item.active::after {
     content: '';
     position: absolute;
     bottom: -4px;
@@ -63,6 +63,20 @@ body {
     background-color: black;
     border-radius: 78px;
     margin-bottom: 4px;
-  }
+}
   
-  
+.home-icon {
+    fill: grey;
+}
+
+.search-icon {
+    fill: grey;
+}
+
+.notification-icon {
+    fill: grey;
+}
+
+.profile-icon {
+    fill: grey;
+}
