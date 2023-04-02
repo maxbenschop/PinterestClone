@@ -24,8 +24,8 @@ body {
     max-width: 100%;
     padding-top: 10px;
     position: fixed;
-    left: 0;
     top: 0;
+    left: 0;
 }
 
 .slide-menu-items {
@@ -116,13 +116,13 @@ body {
 
             /* !main section */
 
-.main-item {
+.main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px; /* add a 20px gap between grid items */
     max-width: 80px;
     margin: 0 auto;
     margin-bottom: 20px;
+    margin-top: 65px;
     border-radius: 10%;
-  }
-  
+}
