@@ -20,8 +20,12 @@ body {
 
 .side-slide {
     overflow-x: auto;
+    background-color: white;
     max-width: 100%;
     padding-top: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .slide-menu-items {
@@ -70,6 +74,7 @@ body {
 
 .footer {
     position: fixed;
+    background-color: white;
     left: 0;
     bottom: 0;
     width: 100%;
