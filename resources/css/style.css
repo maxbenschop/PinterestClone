@@ -117,12 +117,33 @@ body {
             /* !main section */
 
 .main-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px; /* add a 20px gap between grid items */
-    max-width: 80px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 65px;
-    border-radius: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-top: 65px;
 }
+
+.main-item .main-source {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden; 
+}
+
+/* *ERMOET NOG WHITESPACE BETWEEN DE FOTOS KOMEN */
+/* *bescrijving moet nog gefixed wordeN */
+/* *zorg dat het niet uitmaakt welke grote foto je gebruikt dat het er goed uitziet dus test met meerdere */
+
+.main-item .main-source img {
+  position: relative;
+  max-width: 150px; 
+  height: auto;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+
