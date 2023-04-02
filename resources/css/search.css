@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(33, 25, 34);
+}
+
+body {
+    padding: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.search-box {
+    padding: 10px 15px;
+    position: relative;
+    border: 1px solid black;
+    line-height: 0;
+    font-size: 15px;
+    width: 100%;
+    display: grid;
+    border-radius: 60px;
+    color: black;
+    z-index: 1;
+    font-weight: 100;
+}
+
+.popular-txt {
+    text-align: center;
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.recommend-items {
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+}
+
+.item-1 p {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.item-2 p {
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    margin-left: 5px;
+}
+
+.item-3 p {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    margin-right: 5px;
+}
+
+
+.item-4 p {
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    margin-left: 5px;
+}
+
+.item-5 p {
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.item-6 p {
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    margin-left: 5px;
+}
+
+            /* !Footer */
+
+.footer {
+    position: fixed;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-icon {
+    fill: grey;
+    margin-right: 10px;
+}
+
+.search-icon {
+    fill: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.notification-icon {
+    fill: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profile-icon {
+    fill: grey;
+    margin-left: 10px;
+}
+
+.footer-icons {
+    padding: 0px 24px 0px 24px;
+}
+
+.active-icon {
+    fill: black;
+}
+
+    /* !Footer */
+
+.footer {
+    position: fixed;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+            
+.home-icon {
+    fill: grey;
+    margin-right: 10px;
+}
+            
+.search-icon {
+    fill: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+            
+.notification-icon {
+    fill: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+            
+.profile-icon {
+    fill: grey;
+    margin-left: 10px;
+}
+            
+.footer-icons {
+    padding: 0px 24px 0px 24px;
+}
+            
+.active-icon {
+    fill: black;
+}

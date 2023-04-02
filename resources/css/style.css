@@ -130,20 +130,29 @@ body {
   overflow: hidden; 
 }
 
-/* *ERMOET NOG WHITESPACE BETWEEN DE FOTOS KOMEN */
-/* *bescrijving moet nog gefixed wordeN */
-/* *zorg dat het niet uitmaakt welke grote foto je gebruikt dat het er goed uitziet dus test met meerdere */
+/* *  ER MOET NOG WHITESPACE BETWEEN DE FOTOS KOMEN */ 
+/* ?  KLAAR */
+
+/* *  bescrijving moet nog gefixed worden */
+
+/* *  zorg dat het niet uitmaakt welke grote foto je gebruikt dat het er goed uitziet dus test met meerdere */
+/* ?  WERKT NAAR BEHOREN */
 
 .main-item .main-source img {
   position: relative;
-  max-width: 150px; 
+  max-width: 150px;
+  margin-left: 3px;  /* ?  Zorgt voor whitespacing rechterfoto     DEZE MOETEN HETZELFDE ZIJN, ANDERS IS ER ONGELIJKE WHITESPACING */
+  margin-right: 3px; /* ? Zorgt voor whitespacing linkerfoto       DEZE MOETEN HET ZELFDE ZIJN, ANDERS IS ER ONGELIJKE WHITESPACING */
   height: auto;
 }
 
 .main-wrapper {
     display: flex;
     justify-content: center;
-  }
+}
   
-  
+/* *  Optie button (three dots) */
 
+.dot-icon {
+    fill: grey;
+}
