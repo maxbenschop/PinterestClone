@@ -117,7 +117,12 @@ body {
             /* !main section */
 
 .main-item {
-    max-width: 100px;
-    max-height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; /* add a 20px gap between grid items */
+    max-width: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     border-radius: 10%;
-}
+  }
+  
